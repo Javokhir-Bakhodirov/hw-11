@@ -1,0 +1,49 @@
+.hero__box {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 78px;
+}
+.hero__text-box {
+	display: flex;
+	flex-direction: column;
+}
+.hero__title {
+	color: rgb(0, 34, 72);
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 72px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.hero__text {
+	color: rgb(105, 118, 135);
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	margin-bottom: 23px;
+}
+
+.hero__link {
+	width: 170px;
+	color: rgb(255, 255, 255);
+	padding: 20px 45px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: center;
+	background-color: #3685fb;
+	border: 1px solid #3685fb;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+	&:hover {
+		opacity: 0.8;
+	}
+	&:active {
+		color: #3685fb;
+		background-color: transparent;
+	}
+}
